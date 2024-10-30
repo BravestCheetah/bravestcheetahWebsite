@@ -1,2 +1,0 @@
-# bravestcheetahWebsite
- bravestcheetah.pages.dev

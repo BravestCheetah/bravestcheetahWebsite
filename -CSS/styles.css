@@ -1,0 +1,39 @@
+h1, h3 {
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4, p {
+    margin: 5px;
+}
+
+.NoMargin {
+    margin: 0;
+}
+
+#ShortAboutMe {
+    background-color: lightgray;
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+    height: 195px;
+}
+
+#ShortAboutMyProjects {
+    background-color: lightgray;
+    width: 38%;
+    float: right;
+    margin-top: 10px;
+    height: 195px;
+}
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    margin-top: 215px;
+}
