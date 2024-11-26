@@ -8,6 +8,10 @@ body {
     color: lightgrey;
 }
 
+#links {
+    text-align: center;
+}
+
 h4 {
     margin-top: 0;
     margin-bottom: 0;
