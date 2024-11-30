@@ -66,6 +66,8 @@ hr {
 
 #projects {
     margin: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .projects-container {
