@@ -64,16 +64,48 @@ hr {
     background-color: rgb(61, 61, 61, 100);
 }
 
+#projects {
+    margin: 15%;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 .project {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
     border-radius: 5px;
     background-color: rgb(29, 29, 29);
-    width: 42%;
+    width: calc(50% - 10px);
     padding: 10px;
     border: 2px solid #363636;
-    margin: 5px;
+    height: 100px;
+    box-sizing: border-box;
 }
+
+.project h4, .project p {
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .projects-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project {
+        width: 100%;
+        height: auto;
+    }
+}
+
 
 a {
     text-decoration: none;
@@ -86,4 +118,3 @@ a {
 .project h3 {
     color: lightgrey;
 }
-
