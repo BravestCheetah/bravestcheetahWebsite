@@ -1,0 +1,87 @@
+@media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  }
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+#title {
+    font-family: sans-serif;
+    text-align: center;
+    color: lightgrey;
+}
+
+#links {
+    text-align: center;
+}
+
+#about-me, #skills, #projects, #title {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h4, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    color: lightgrey;
+}
+
+h1 {
+    margin-top: 10;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+hr {
+    background-color: grey;
+    height: 1px;
+    border: none;
+}
+
+.link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(61, 61, 61, 0);
+    transition-duration: 0.5s;
+    width: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px;
+}
+
+.link img {
+    display: block;
+    width: 25;
+    height: auto;
+}
+
+.link:hover {
+    background-color: rgb(61, 61, 61, 100);
+}
+
+.project {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29);
+    width: 42.5%;
+    padding: 10px;
+    border: 2px solid #363636;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project p {
+    color: grey;
+}
+
+.project h3 {
+    color: lightgrey;
+}
+
