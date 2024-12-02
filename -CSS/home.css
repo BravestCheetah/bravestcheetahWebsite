@@ -47,9 +47,12 @@ body {
 }
 
 #timeThing {
-    text-align: center;
     bottom: 0;
     position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 h4, h3, p, ul {
