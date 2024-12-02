@@ -16,6 +16,7 @@ body {
 
 #links {
     text-align: center;
+    align-items: center;
 }
 
 #about-me, #skills, #projects, #title, #links {
