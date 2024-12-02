@@ -1,4 +1,4 @@
-document.getElementById('currentTime').textContent = '(LOADING)';
+document.getElementById('currentTime').textContent = '...';
 
 setInterval(function() {
   var currentDate = new Date();
