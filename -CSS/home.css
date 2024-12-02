@@ -18,9 +18,18 @@ body {
     text-align: center;
 }
 
-#about-me, #skills, #projects, #title {
-    margin-left: 15%;
-    margin-right: 15%;
+#about-me, #skills, #projects, #title, #links {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 10px;
+  background-color: rgba(40, 40, 40, 0);
+  transition-duration: 0.5s;
+  padding-left: -10%;
+  padding-right: -10%;
+}
+
+#about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover {
+  background-color: rgba(40, 40, 40, 100);
 }
 
 h4, h3, p, ul {
