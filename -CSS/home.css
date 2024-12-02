@@ -33,13 +33,13 @@ body {
 
 }
 #title {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #links {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover {
