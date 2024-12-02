@@ -48,6 +48,8 @@ body {
 
 #timeThing {
     text-align: center;
+    bottom: 0;
+    position: fixed;
 }
 
 h4, h3, p, ul {
