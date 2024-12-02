@@ -39,6 +39,7 @@ body {
 #links {
     padding-top: 5px;
     padding-bottom: 5px;
+}
 
 #about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover {
   background-color: rgba(40, 40, 40, 100);
