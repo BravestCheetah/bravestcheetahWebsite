@@ -54,6 +54,7 @@ body {
     margin-left: -125px;
     text-align: center;
     text-decoration: underline;
+    text-decoration-color: lightgrey;
 }
 
 h4, h3, p, ul {
