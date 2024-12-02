@@ -49,9 +49,9 @@ body {
 #timeThing {
     bottom: 0;
     position: fixed;
-    width: 100px;
+    width: 250px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -125px;
 }
 
 h4, h3, p, ul {
