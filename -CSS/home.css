@@ -2,10 +2,6 @@
     .project {
         width: 100%;
     }
-    .projects-container {
-        flex-direction: column;
-        gap: 15px;
-    }
 }
 
 body {
@@ -146,4 +142,11 @@ a {
 
 .project h3 {
     color: lightgrey;
+}
+
+@media (max-width: 800px) {
+    .projects-container {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
