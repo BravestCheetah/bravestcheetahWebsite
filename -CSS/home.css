@@ -21,7 +21,7 @@ body {
     align-items: center;
 }
 
-#about-me, #skills, #projects, #title, #links, #timeThing {
+#about-me, #skills, #projects, #title, #links, #timeThing, #otherStuff {
   margin-left: 15%;
   margin-right: 15%;
   border-radius: 10px;
@@ -42,8 +42,33 @@ body {
     padding-bottom: 2px;
 }
 
-#about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover, #timeThing:hover {
+a {
+    text-decoration: none;
+}
+
+.project p {
+    color: grey;
+}
+
+.project h3 {
+    color: lightgrey;
+}
+
+#about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover, #timeThing:hover, #otherStuff:hover  {
   background-color: rgba(40, 40, 40, 100);
+}
+
+#otherStuff {
+    display: flex;
+    flex-direction: column;
+}
+
+#otherStuff a {
+    color: lightgrey;
+    border-radius: 10px;
+    padding: 2px;
+    transition-duration: 0.5s;
+    text-decoration: underline;
 }
 
 #timeThing {
@@ -94,7 +119,7 @@ hr {
     height: auto;
 }
 
-.link:hover {
+.link:hover, #otherStuff a:hover {
     background-color: rgb(61, 61, 61, 100);
 }
 
@@ -142,17 +167,4 @@ hr {
         width: 100%;
         height: auto;
     }
-}
-
-
-a {
-    text-decoration: none;
-}
-
-.project p {
-    color: grey;
-}
-
-.project h3 {
-    color: lightgrey;
 }
