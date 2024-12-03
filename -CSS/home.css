@@ -7,6 +7,20 @@
 body {
     background-color: rgb(19, 19, 19);
 }
+
+#title {
+    font-family: sans-serif;
+    text-align: center;
+    color: lightgrey;
+}
+
+#links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 #about-me, #skills, #projects, #title, #links, #timeThing {
   margin-left: 15%;
   margin-right: 15%;
@@ -18,37 +32,18 @@ body {
   padding-right: -10%;
 
 }
-
-#about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover, #timeThing:hover {
-  background-color: rgba(40, 40, 40, 100);
-}
-
-.link:hover {
-    background-color: rgb(61, 61, 61, 100);
-}
-
 #title {
-    font-family: sans-serif;
-    text-align: center;
-    color: lightgrey;
     padding-top: 0;
     padding-bottom: 2px;
 }
 
 #links {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
-#projects {
-    margin: 15%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 10px;
+#about-me:hover, #skills:hover,  #title:hover, #projects:hover, #links:hover, #timeThing:hover {
+  background-color: rgba(40, 40, 40, 100);
 }
 
 #timeThing {
@@ -60,18 +55,6 @@ body {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: lightgrey;
-}
-
-.link {
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 5px;
-    background-color: rgba(61, 61, 61, 0);
-    transition-duration: 0.5s;
-    width: 25px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 2px;
 }
 
 h4, h3, p, ul {
@@ -93,10 +76,34 @@ hr {
     border: none;
 }
 
+.link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(61, 61, 61, 0);
+    transition-duration: 0.5s;
+    width: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px;
+}
+
 .link img {
     display: block;
     width: 25;
     height: auto;
+}
+
+.link:hover {
+    background-color: rgb(61, 61, 61, 100);
+}
+
+#projects {
+    margin: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    
 }
 
 .projects-container {
@@ -125,6 +132,12 @@ hr {
     text-align: center;
 }
 
+@media (max-width: 800px) {
+    .projects-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .project {
         width: 100%;
         height: auto;
@@ -142,11 +155,4 @@ a {
 
 .project h3 {
     color: lightgrey;
-}
-
-@media (max-width: 800px) {
-    .projects-container {
-        flex-direction: column;
-        gap: 15px;
-    }
 }
