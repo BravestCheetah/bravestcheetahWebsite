@@ -23,4 +23,4 @@ setInterval(function() {
   var currentDay = day + "/" + month + "/" + year
   document.getElementById('clock').textContent = currentTime;
   document.getElementById('date').textContent = currentDay;
-}, 1000)
+}, 1)
