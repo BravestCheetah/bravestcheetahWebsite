@@ -5,7 +5,7 @@ setInterval(function() {
   
   var year = currentDate.getFullYear();
   var month = currentDate.getMonth() + 1;
-  var day = currentDate.getDay();
+  var day = currentDate.getDate() + 1;
   
   var hours = currentDate.getHours();
   var minutes = currentDate.getMinutes();
