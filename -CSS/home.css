@@ -145,11 +145,15 @@ hr {
     overflow: hidden;
     border-radius: 5px;
     background-color: rgb(29, 29, 29);
-    width: calc(50% - 10px);
+    width: calc(50% - 2.5px);
     padding: 5px;
     border: 2px solid #363636;
     height: 100px;
     box-sizing: border-box;
+}
+
+.double {
+    width: 100%;
 }
 
 .project h4, .project p {

@@ -1,0 +1,35 @@
+
+#info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+        
+#text { grid-area: 1 / 1 / 2 / 2; }
+#buttons { grid-area: 1 / 2 / 2 / 3; }
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    padding-left: 10px;
+}
+
+a {
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #7667ff, #c08ae4);
+    border-width: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 90%;
+}
